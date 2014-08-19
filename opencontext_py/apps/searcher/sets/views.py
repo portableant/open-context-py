@@ -4,6 +4,8 @@ import django.utils.http as http
 from opencontext_py.apps.entities.entity.models import Entity
 from opencontext_py.libs.solrconnection import SolrConnection
 
+### THIS IS JUST TEST CODE. TODO: Rewrite this correctly. 
+
 
 def index(request):
     return HttpResponse("Hello, world. You're at the sets index.")
